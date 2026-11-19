@@ -1,5 +1,5 @@
 {
-  "name": "schema-ia",
+  "name": "schemas-ia",
   "version": "1.0.0",
   "private": true,
   "description": "L’IA en schémas : support visuel projeté en formation (une notion, une planche SVG)",
