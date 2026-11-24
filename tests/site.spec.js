@@ -60,7 +60,7 @@ for (const { nom, url } of PAGES) {
       if (url === 'glossaire.html') await expect(glossaire).toHaveAttribute('aria-current', 'page');
       else await expect(glossaire).not.toHaveAttribute('aria-current');
       const outils = page.locator('a.bandeau__lien-outils');
-      await expect(outils).toHaveAttribute('href', 'https://gharel.github.io/home/');
+      await expect(outils).toHaveAttribute('href', 'https://gharel.github.io/pro/');
       await expect(outils).toHaveAttribute('title', 'Tous les outils Skazy Formation');
       await expect(outils).toHaveAttribute('target', '_top');
       await expect(outils).toHaveAccessibleName('Les outils');
